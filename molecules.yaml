@@ -1,0 +1,62 @@
+# Ordered SMILES challenges — edit this file to change the lesson.
+molecules:
+  - id: methane
+    name: Methane
+    smiles: "C"
+    hint: "One carbon atom. The simplest hydrocarbon."
+    difficulty: beginner
+
+  - id: ethane
+    name: Ethane
+    smiles: "CC"
+    hint: "Two carbons joined by a single bond."
+    difficulty: beginner
+
+  - id: ethanoamine
+    name: Ethanoamine
+    smiles: "CCN"
+    hint: "Switching symbols allows you to build molecules with different atoms"
+    difficulty: beginner
+
+  - id: ethanoamide
+    name: Ethanoamide
+    smiles: "CCC(O)N"
+    hint: "Parenthesis allows you to build branches"
+    difficulty: beginner
+
+  - id: glutamine
+    name: glutamine
+    smiles: "NC(C(O)=O)CCC(N)O"
+    hint: "You can establish multiple branches"
+    difficulty: intermediate
+
+  - id: furane
+    name: Furane 
+    smiles: "C1=COC=C1"
+    hint: "Use numbers after atoms to close a ring"
+    difficulty: intermediate
+
+  - id: phenol
+    name: Phenol
+    smiles: "C1=CC=C(C=C1)O"
+    hint: "Six aromatic carbons in a ring. Lowercase c means aromatic."
+    difficulty: intermediate
+
+  - id: aspirin
+    name: Aspirin
+    smiles: "CC(=O)Oc1ccccc1C(=O)O"
+    hint: "A real drug: acetylsalicylic acid — aromatic ring with ester and carboxylic acid."
+    difficulty: advanced
+
+
+  - id: indene
+    name: Indene
+    smiles: "CN1C=NC2=C1C(=O)N(C(=O)N2C)C"
+    hint: "Use more than one number to create a close multiple rings"
+    difficulty: advanced
+
+  - id: caffeine
+    name: Caffeine
+    smiles: "CN1C=NC2=C1C(=O)N(C(=O)N2C)C"
+    hint: "A real drug: fused rings with several methylated nitrogens and carbonyls."
+    difficulty: advanced
